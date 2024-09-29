@@ -36,6 +36,7 @@ const ColorConverter = () => {
           value={color}
           onChange={handleInputChange}
           placeholder='Введите HEX цвет'
+          maxLength={7}
           className='color-input'
         />
         <div className='result'>
